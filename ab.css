@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d6eaf8;
+}
+.content {
+  position: relative;
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .textBox {
+  position: relative;
+  max-width: 600px;
+}
+.content .textBox h2 {
+  color: #333;
+  font-size: 2em;
+  line-height: 1.4 em;
+  font-weight: 800;
+}
+.content .textBox h2 span {
+  color: #a9dfbf;
+  font-size: 0.6em;
+  font-weight: 300;
+}
+.content .textBox p {
+  color: #333;
+  margin-bottom: 20px;
+}
+.content .textBox a {
+  display: inline block;
+  margin-top: 60px;
+  padding: 8px 20px;
+  text-decoration: none;
+  background: #017143;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.content .imgBox {
+  width: 600px;
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 50px;
+  margin-top: 10px;
+}
+.content .imgBox img {
+  max-height: 800px;
+}
